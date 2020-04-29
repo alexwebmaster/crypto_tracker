@@ -23,7 +23,7 @@ window.addEventListener('DOMContentLoaded', () =>
 	
   checkApi();
   //checking if is time to run
-  setInterval(checkApi, 160 * 1000);
+  setInterval(checkApi, 60 * 1000);
 })
 
 const checkApi = () => {

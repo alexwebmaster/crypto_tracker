@@ -4,14 +4,16 @@
 
 This is an Electron application that uses [bitcointrade API](https://www.bitcointrade.com.br/).
 
+## Download
+Download and test [Windows portable app](https://github.com/alexwebmaster/crypto_tracker/dist/installers/crypto_tracker-1.0.0-setup).
+
 Todo Features:
 
 - `Change Crypto` - Hability to change the crypto that is being monitored
 - `Change Currency` - Hability to change the currency on the user interface, now it is fixed on **BRL**.
 - `Change interval` - Change the interval of the update process, now it is fixed at **60s**.
-- `Build Installer` - Create installers or stand alone app executable.
 
-## To Use
+## Or build yourself 
 
 To clone and run this repository you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
 

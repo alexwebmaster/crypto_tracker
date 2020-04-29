@@ -1,23 +1,23 @@
 {
-  "name": "electron-quick-start",
+  "name": "crypto_tracker",
   "version": "1.0.0",
   "description": "A minimal Electron application",
   "main": "main.js",
   "scripts": {
     "start": "electron ."
   },
-  "repository": "https://github.com/electron/electron-quick-start",
+  "repository": "https://github.com/alexwebmaster/crypto_tracker",
   "keywords": [
     "Electron",
-    "quick",
-    "start",
-    "tutorial",
-    "demo"
+    "Bitcoin Tracker",
+    "Currency Tracker",
+    "Bitcoin Alert"
   ],
-  "author": "GitHub",
+  "author": "Alex Gomes",
   "license": "CC0-1.0",
   "devDependencies": {
-    "electron": "^8.2.4"
+    "electron": "^8.2.4",
+    "electron-winstaller": "^4.0.0"
   },
   "dependencies": {
     "axios": "^0.19.2"

@@ -1,0 +1,1 @@
+electron-packager . crypto_tracker --overwrite --platform win32 --arch x64  --icon=assets/icons/btc.ico --prune=true --out dist/  && electron-installer-windows --src dist/crypto_tracker-win32-x64/ --dest dist/installers/ --icon=assets/icons/btc.ico
