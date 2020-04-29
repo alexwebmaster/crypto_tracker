@@ -4,6 +4,8 @@
 
 This is an Electron application that uses [bitcointrade API](https://www.bitcointrade.com.br/).
 
+![Screenshtot](/../master/dist/screenshot/screenshot.JPG?raw=true "App Screenshot")
+
 ## Download
 Download and test [Windows portable app](https://github.com/alexwebmaster/crypto_tracker/raw/master/dist/installers/crypto_tracker-1.0.0-setup.exe).
 
