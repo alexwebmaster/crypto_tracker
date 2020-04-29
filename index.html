@@ -9,6 +9,30 @@
     <title>Crypt Tracker!</title>
   </head>
   <body>
+
+    <table>
+      <tr>
+        <td>Alert when near to lowest and highest </td>
+        <td><input type="number" name="corner" id="corner" min="0.1" max="10" value="1" step="0.01"> %</td>
+      </tr>
+    </table>
+    <hr>
+    <table>
+      <tr>
+        <th>Lower</th>
+        <th>Lower Alert</th>
+        <th>Last</th>
+        <th>Higher Alert</th>
+        <th>Higher</th>
+      </tr>
+      <tr>
+        <td> <span id="low"></span> </td>
+        <td><span id="lower_alert"></span></td>
+        <td> <span id="last"></span> </td>
+        <td><span id="higher_alert"></span></td>
+        <td> <span id="high"></span> </td>        
+      </tr>
+    </table>
     
 
     <p><a href="#" id="close-btn">Close</a></p>
