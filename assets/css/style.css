@@ -5,12 +5,26 @@ html, body {
 	font-size: 0.9rem;
 	box-sizing: border-box;
 	position: relative;
+	height: calc(100% - 10px);
 	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
 }
+#windowTopBar {
+	width :100%;
+	height :30px;
+	background-color: #333;
+	position :absolute;
+	top : -20px;
+	left :0;
+	padding: 5px 10px;
+	cursor: move ;
+	box-sizing: border-box;
+}
+#windowTopBar img {width: 20px; vertical-align: middle; }
+#close-btn { position: absolute; bottom: 0px; right: 0px; color: #cc5f1f; text-decoration: none; font-weight: bold;  }
+#close-btn:hover { color: #ff926b; }
 h2	{ margin-bottom: 0; }
-h4	{ margin: 0; }
 input{ margin: 0 10px; padding: 5px 10px; width: 50px; margin-top: 5px; }
-a { color: #cc5f1f; text-decoration: none; font-weight: bold; }
 table { width: 100%; padding: 10px; text-align: center; border:1px solid #666; }
-hr { border-color: #cc5f1f; margin-top: 10px; }
+hr { border-color: #cc5f1f; margin: 10px 0; }
 .active { color: #cc5f1f; }
+#range { width: 80%; }

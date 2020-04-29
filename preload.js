@@ -14,6 +14,7 @@ window.addEventListener('DOMContentLoaded', () =>
   let last = document.getElementById("high");
   let lower_alert = document.getElementById("lower_alert");
   let higher_alert = document.getElementById("higher_alert");
+  let range = document.getElementById("range");
 
   document.getElementById("close-btn").addEventListener("click", function (e) {
      var window = remote.getCurrentWindow();
@@ -31,9 +32,14 @@ const checkApi = () => {
 
   axios.get('https://api.bitcointrade.com.br/v3/public/BRLBTC/ticker').then(response => {
     data = response.data.data; 
+    //set values on UI
     low.innerHTML = 'R$ '+data.low.toLocaleString('br');
     last.innerHTML = 'R$ '+data.last.toLocaleString('br');
     high.innerHTML = 'R$ '+data.high.toLocaleString('br');
+    //update range element
+    range.min = data.low;
+    range.max = data.high;
+    range.value = data.last;
 
     checkCorners();
   })

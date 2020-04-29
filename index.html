@@ -9,6 +9,9 @@
     <title>Crypt Tracker!</title>
   </head>
   <body>
+    <div id="windowTopBar">
+        <img src="assets/icons/cog.png"> Config 
+    </div>
 
     <table>
       <tr>
@@ -27,15 +30,21 @@
       </tr>
       <tr>
         <td> <span id="low"></span> </td>
-        <td><span id="lower_alert"></span></td>
+        <td> <span id="lower_alert"></span></td>
         <td> <span id="last"></span> </td>
-        <td><span id="higher_alert"></span></td>
+        <td> <span id="higher_alert"></span></td>
         <td> <span id="high"></span> </td>        
       </tr>
+      <tr>
+        <td colspan="5">
+          <input type="range"  id="range" disabled="">
+        </td>
+      </tr>
     </table>
-    
 
-    <p><a href="#" id="close-btn">Close</a></p>
+    <div>
+      <a href="#" id="close-btn">Close &times;</a>
+    </div>
 
     <!-- You can also require other files to run in this process -->
     <script src="./renderer.js"></script>
