@@ -5,7 +5,7 @@
 This is an Electron application that uses [bitcointrade API](https://www.bitcointrade.com.br/).
 
 ## Download
-Download and test [Windows portable app](https://github.com/alexwebmaster/crypto_tracker/dist/installers/crypto_tracker-1.0.0-setup).
+Download and test [Windows portable app](https://github.com/alexwebmaster/crypto_tracker/dist/installers/crypto_tracker-1.0.0-setup.exe).
 
 Todo Features:
 
